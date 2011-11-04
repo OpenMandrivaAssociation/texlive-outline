@@ -1,3 +1,9 @@
+# revision 18360
+# category Package
+# catalog-ctan /macros/latex/contrib/outline
+# catalog-date 2010-05-19 18:21:51 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-outline
 Version:	20100519
 Release:	1
@@ -40,6 +46,7 @@ facilities similar to enumerate, but up to 6 levels deep.
 %doc %{_texmfdistdir}/doc/latex/outline/outline-sample.tex
 %doc %{_texmfdistdir}/doc/latex/outline/outline.pdf
 %doc %{_texmfdistdir}/doc/latex/outline/outline.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ facilities similar to enumerate, but up to 6 levels deep.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
