@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-outline
 Version:	20100519
-Release:	4
+Release:	5
 Summary:	List environment for making outlines
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/outline
