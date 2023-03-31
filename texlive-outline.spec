@@ -1,6 +1,6 @@
 Name:		texlive-outline
 Version:	18360
-Release:	1
+Release:	2
 Summary:	List environment for making outlines
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/outline
