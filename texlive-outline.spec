@@ -3,7 +3,7 @@ Version:	18360
 Release:	2
 Summary:	List environment for making outlines
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/outline
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/outline
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/outline.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/outline.doc.r%{version}.tar.xz
